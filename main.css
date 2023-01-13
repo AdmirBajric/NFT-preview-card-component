@@ -41,10 +41,6 @@ p {
   font-size: var(--fontParagraph);
 }
 
-#header {
-  display: none;
-}
-
 #card-container {
   width: 35rem;
   height: 59.6rem;
