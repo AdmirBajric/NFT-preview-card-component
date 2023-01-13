@@ -133,7 +133,7 @@ p {
   height: 1.9rem;
 }
 
-.price span p {
+.price span {
   color: var(--cyan);
   font-size: 1.6rem;
   font-weight: var(--p2);
