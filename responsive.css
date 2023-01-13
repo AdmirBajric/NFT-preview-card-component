@@ -20,6 +20,11 @@
     height: 2.7rem;
   }
 
+  #card-heading h2:hover {
+    color: var(--white);
+    cursor: default;
+  }
+
   #card-description {
     width: 27.8rem;
     height: 5.2rem;
@@ -91,5 +96,10 @@
     font-size: 1.5rem;
 
     margin-left: 0.1rem;
+  }
+
+  #card-footer span:hover {
+    color: var(--white);
+    cursor: default;
   }
 }

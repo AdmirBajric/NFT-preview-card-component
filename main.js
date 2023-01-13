@@ -13,4 +13,5 @@ imgContainer.addEventListener("mouseover", (e) => {
 imgContainer.addEventListener("mouseout", (e) => {
   overlay.style.opacity = 0;
   eye.style.opacity = 0;
+  imgContainer.style.cursor = "default";
 });
