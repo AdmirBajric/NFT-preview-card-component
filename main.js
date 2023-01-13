@@ -3,8 +3,10 @@ const overlay = document.querySelector(".overlay");
 const eye = document.querySelector(".eye");
 
 imgContainer.addEventListener("mouseover", (e) => {
-  overlay.style.opacity = 0.5;
-  eye.style.opacity = 0.5;
+  if (window.innerWidth > 600) {
+    overlay.style.opacity = 0.5;
+    eye.style.opacity = 0.5;
+  }
 });
 
 imgContainer.addEventListener("mouseout", (e) => {
