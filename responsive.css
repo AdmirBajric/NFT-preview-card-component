@@ -20,7 +20,7 @@
     height: 2.7rem;
   }
 
-  #card-heading h2:hover {
+  #card-heading h1:hover {
     color: var(--white);
     cursor: default;
   }

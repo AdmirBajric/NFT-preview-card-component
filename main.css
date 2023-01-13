@@ -74,16 +74,16 @@ p {
   margin-top: 2.4rem;
 }
 
-#card-heading h2 {
+#card-heading h1 {
   display: inline-block;
 }
 
-#card-heading h2:hover {
+#card-heading h1:hover {
   color: var(--cyan);
   cursor: pointer;
 }
 
-#card-heading h2 {
+#card-heading h1 {
   color: var(--white);
   font-size: 2.2rem;
   font-weight: var(--p2);
@@ -230,6 +230,7 @@ p {
   background-color: var(--cyan);
   opacity: 0;
   border-radius: inherit;
+  transition: all 0.3s ease;
 }
 
 .eye {
@@ -239,4 +240,5 @@ p {
   top: calc(50% - 2.4rem);
   left: calc(50% - 2.4rem);
   opacity: 0;
+  transition: all 0.3s ease;
 }
