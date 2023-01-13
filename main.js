@@ -6,6 +6,7 @@ imgContainer.addEventListener("mouseover", (e) => {
   if (window.innerWidth > 600) {
     overlay.style.opacity = 0.5;
     eye.style.opacity = 0.5;
+    imgContainer.style.cursor = "pointer";
   }
 });
 
