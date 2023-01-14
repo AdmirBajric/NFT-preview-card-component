@@ -42,8 +42,8 @@ p {
 }
 
 #card-container {
-  width: 35rem;
-  height: 59.6rem;
+  width: 30.2rem;
+  height: 54.8rem;
   background-color: var(--cardBG);
   display: flex;
   justify-content: center;
@@ -175,7 +175,6 @@ p {
   align-items: center;
   flex-direction: row;
   align-self: flex-start;
-  margin-left: 2.4rem;
 }
 
 #card-footer img {
